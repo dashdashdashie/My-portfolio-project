@@ -1,0 +1,33 @@
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive; */
+
+:root {
+  --primary-color: #f5f2f9;
+  --secondary-color: #433a5b;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 96px;
+}
+
+h2 {
+  font-family: "Caveat", cursive;
+  font-size: 35px;
+}
+
+.homepage-hero {
+  padding: 100px 20px;
+  background: var(--primary-color);
+}
+
+.homepage-hero p {
+  font-size: 35px;
+  font-family: "Caveat", cursive;
+  color: var(--secondary-color);
+}
+
+.homepage-hero div {
+  margin: 50px 100px;
+  font-family: "Lato", sans-serif;
+}
