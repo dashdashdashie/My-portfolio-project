@@ -4,15 +4,18 @@ font-family: 'Caveat', cursive; */
 :root {
   --primary-color: #f5f2f9;
   --secondary-color: #433a5b;
+  --primary-font: "Bebas Neue", sans-serif;
+  --secondary-font: "Caveat", sans-serif;
+  --default-font: "Lato", sans-serif;
 }
 
 h1 {
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--primary-font);
   font-size: 96px;
 }
 
 h2 {
-  font-family: "Caveat", cursive;
+  font-family: var(--secondary-font);
   font-size: 35px;
 }
 
@@ -23,17 +26,17 @@ h2 {
 
 .homepage-hero p {
   font-size: 35px;
-  font-family: "Caveat", cursive;
+  font-family: var(--secondary-font);
   color: var(--secondary-color);
 }
 
 .homepage-hero div {
   margin: 50px 100px;
-  font-family: "Lato", sans-serif;
+  font-family: var(--default-font);
 }
 
 .homepage-content h2 {
   font-size: 25px;
-  font-family: "Bebas Neue", cursive;
+  font-family: var(--primary-font);
   color: #d5cee0;
 }
