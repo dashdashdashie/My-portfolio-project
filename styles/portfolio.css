@@ -12,6 +12,7 @@ font-family: 'Caveat', cursive; */
 h1 {
   font-family: var(--primary-font);
   font-size: 96px;
+  color: var(--secondary-color);
 }
 
 h2 {
@@ -20,14 +21,13 @@ h2 {
 }
 
 .homepage-hero {
-  padding: 100px 20px 15px 20px;
+  padding: 100px 0px 15px 0px;
   background: var(--primary-color);
 }
 
 .homepage-hero p {
   font-size: 35px;
   font-family: var(--secondary-font);
-  color: var(--secondary-color);
 }
 
 .homepage-hero div {
@@ -39,4 +39,19 @@ h2 {
   font-size: 25px;
   font-family: var(--primary-font);
   color: #d5cee0;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .homepage-hero {
+    padding: 20px 0px 15px 0px;
+  }
+  .homepage-hero div {
+    margin: 20px;
+  }
 }
