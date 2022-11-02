@@ -20,25 +20,33 @@ h2 {
   font-size: 35px;
 }
 
-.homepage-hero {
-  padding: 80px 0px 15px 0px;
+.hero {
+  text-align: center;
+  padding: 160px 20px;
   background: var(--primary-color);
 }
 
-.homepage-hero p {
+.hero p {
+  display: block;
   font-size: 35px;
   font-family: var(--secondary-font);
 }
 
-.homepage-hero div {
-  margin: 50px 180px;
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 15px 30px;
   font-family: var(--default-font);
 }
-
-.homepage-content h2 {
-  font-size: 25px;
-  font-family: var(--primary-font);
-  color: #d5cee0;
+.tn-branding:hover {
+  background-color: var(--default-font);
+  color: var(--secondary-color);
+  font-weight: bold;
+  border: var(--secondary-color) 1px solid;
 }
 
 @media (max-width: 650px) {
@@ -48,13 +56,12 @@ h2 {
   h2 {
     font-size: 30px;
   }
-  .homepage-hero {
+  .hero {
     padding: 20px 0px 15px 0px;
   }
-  .homepage-hero div {
-    margin: 20px;
-  }
-  .homepage-content h2 {
-    font-size: 15px;
+  .btn-branding {
+    font-size: 13px;
+    padding: 8px 20px;
+    margin: 20px 0;
   }
 }
