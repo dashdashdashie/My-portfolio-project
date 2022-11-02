@@ -54,4 +54,7 @@ h2 {
   .homepage-hero div {
     margin: 20px;
   }
+  .homepage-content h2 {
+    font-size: 15px;
+  }
 }
