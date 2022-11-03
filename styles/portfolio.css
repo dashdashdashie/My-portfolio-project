@@ -58,7 +58,7 @@ p {
   border: var(--secondary-color) 1px solid;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
