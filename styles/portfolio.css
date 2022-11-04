@@ -62,9 +62,9 @@ p {
   font-size: 60px;
 }
 
-.about img {
+.content img {
   max-width: 400px;
-  margin-top: 47px;
+  margin-top: 40px;
 }
 
 @media (max-width: 767px) {
@@ -85,8 +85,9 @@ p {
     font-size: 20px;
   }
 
-  .about {
+  .content {
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .about p {
@@ -97,7 +98,7 @@ p {
     margin: 0;
   }
 
-  .about img {
+  .content img {
     margin-top: 27px;
   }
 
