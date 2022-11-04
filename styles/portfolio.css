@@ -63,7 +63,7 @@ p {
 }
 
 .about img {
-  max-height: 400px;
+  max-width: 400px;
   margin-top: 47px;
 }
 
@@ -83,6 +83,22 @@ p {
   }
   .hero p {
     font-size: 20px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about p {
+    margin: 0;
+  }
+
+  .about a {
+    margin: 0;
+  }
+
+  .about img {
+    margin-top: 27px;
   }
 
   .btn-branding {
