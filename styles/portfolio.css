@@ -58,6 +58,15 @@ p {
   border: var(--secondary-color) 1px solid;
 }
 
+.about h1 {
+  font-size: 60px;
+}
+
+.about img {
+  max-height: 400px;
+  margin-top: 47px;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 40px;
