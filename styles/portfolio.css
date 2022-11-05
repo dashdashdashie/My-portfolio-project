@@ -34,6 +34,41 @@ p {
   font-family: var(--default-font);
 }
 
+footer h3 {
+  margin: 0;
+}
+
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
 .hero p {
   font-size: 35px;
   font-family: var(--secondary-font);
@@ -113,6 +148,11 @@ p {
     font-size: 13px;
     margin: 25px;
   }
+
+  footer .email-link {
+    font-size: 16px;
+  }
+
   .hero {
     padding: 70px 0px 15px 0px;
   }
