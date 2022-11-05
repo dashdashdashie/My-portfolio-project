@@ -20,6 +20,12 @@ h2 {
   font-size: 35px;
 }
 
+h3 {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  margin-left: 100px;
+}
+
 p {
   display: block;
   font-size: 18px;
@@ -67,12 +73,33 @@ p {
   margin-top: 40px;
 }
 
+.contact h1 {
+  margin-top: 50px;
+}
+
+.contact p {
+  margin: 10px 0 30px 100px;
+}
+.contact-links {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.contact-links:hover {
+  color: #7d6591;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
   h2 {
     font-size: 20px;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
   }
   p {
     font-size: 13px;
@@ -100,6 +127,25 @@ p {
 
   .content img {
     margin-top: 27px;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  .contact h1 {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .contact h3 {
+    text-align: center;
+  }
+
+  .contact p {
+    display: block;
+    margin: 0;
+    text-align: center;
   }
 
   .btn-branding {
